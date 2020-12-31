@@ -2,6 +2,20 @@
 
 ## datasets
 
+### WebQuestion
+
+https://github.com/brmson/dataset-factoid-webquestions
+
+### SimpleQuestion
+
+https://github.com/davidgolub/SimpleQA/tree/master/datasets/SimpleQuestions
+
+### FB2M and FB5M
+
+### 30M-Factoid
+
+https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
+
 ## baselines
 
 ### Bordes et al. (2014b), Open question answering with weakly supervised embedding models
@@ -46,15 +60,16 @@
 > Wenpeng Yin, Mo Yu, Bing Xiang, Bowen Zhou, and Hinrich Schütze. "Simple question answering by attentive convolutional neural network." COLING 2016.
 
 - [PDF](https://arxiv.org/pdf/1606.03391)
-- CODE
+- [CODE1](https://github.com/yinwenpeng/KBQA_IBM)
+- [CODE2](https://github.com/yinwenpeng/KBQA_IBM_New)
 - Abstract
 
-### Dai et al. (2016), CFO: Conditional focused neural question answering with large-scale knowledge bases
+### Dai et al. (2016), CFO
 
 > Zihang Dai, Lei Li, and Wei Xu. "CFO: Conditional focused neural question answering with large-scale knowledge bases." ACL 2016.
 
 - [PDF](https://arxiv.org/pdf/1606.01994)
-- CODE
+- [CODE](https://github.com/zihangdai/cfo)
 - Abstract
 
 ### Lukovnikov et al. (2017), Neural network-based question answering over knowledge graphs on word and character level
@@ -128,3 +143,11 @@
 - [PDF](https://arxiv.org/pdf/2010.08883)
 - [CODE](https://github.com/SmartDataAnalytics/semparse-sq)
 - Abstract
+
+## Other Resources
+
+### Relevant Papers
+
+### GitHub Repository
+
+- https://github.com/PetrochukM/Simple-QA-EMNLP-2018/
