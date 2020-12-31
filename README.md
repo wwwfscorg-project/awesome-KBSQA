@@ -4,15 +4,22 @@
 
 ## baselines
 
-### Bordes et al. (2014), Open question answering with weakly supervised embedding models
+### Bordes et al. (2014b), Open question answering with weakly supervised embedding models
 
-> Bordes, Antoine, Jason Weston, and Nicolas Usunier. "Open question answering with weakly supervised embedding models." ECML-PKDD, 2014.
+> Antoine Bordes, Jason Weston, and Nicolas Usunier. "Open question answering with weakly supervised embedding models." ECML-PKDD, 2014.
 
 
 - [PDF](https://link.springer.com/content/pdf/10.1007/978-3-662-44848-9_11.pdf)
 - CODE
 - Abstract
 
+### Bordes et al. (2014a), Question answering with subgraph embeddings
+
+> Antoine Bordes, Sumit Chopra, and Jason Weston. "Question answering with subgraph embeddings." arXiv preprint arXiv:1406.3676 (2014).
+
+- [PDF](https://arxiv.org/pdf/1406.3676)
+- CODE
+- Abstract
 
 ### Bordes et al. (2015), Large-scale simple question answering with memory networks
 
@@ -30,6 +37,15 @@
 
 
 - [PDF](https://arxiv.org/pdf/1604.00727)
+- CODE
+- Abstract
+
+
+### Yin et al. (2016), Simple question answering by attentive convolutional neural network
+
+> Wenpeng Yin, Mo Yu, Bing Xiang, Bowen Zhou, and Hinrich Schütze. "Simple question answering by attentive convolutional neural network." COLING 2016.
+
+- [PDF](https://arxiv.org/pdf/1606.03391)
 - CODE
 - Abstract
 
@@ -51,7 +67,7 @@
 
 ### Mohammed et al. (2018), Strong baselines for simple question answering over knowledge graphs with and without neural networks
 
-> Mohammed, Salman, Peng Shi, and Jimmy Lin. "Strong baselines for simple question answering over knowledge graphs with and without neural networks." NAACL 2018.
+> Salman Mohammed, Peng Shi, and Jimmy Lin. "Strong baselines for simple question answering over knowledge graphs with and without neural networks." NAACL 2018.
 
 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3038912.3052675?casa_token=iLERoPpVmdgAAAAA:X0Wha2ssSGvCh2zWbm1glDTeBtzA9GlZXB7BcKsG7ZZEPj0Fvm18_zYyLoI1v5GGGSNU6uBN8SNg)
 - CODE
@@ -67,7 +83,7 @@
 
 ### Gupta et al. (2018), Retrieve and re-rank: A simple and effective IR approach to simple question answering over knowledge graphs
 
-> Gupta, Vishal, Manoj Chinnakotla, and Manish Shrivastava. "Retrieve and re-rank: A simple and effective IR approach to simple question answering over knowledge graphs." EMNLP-FEVER 2018.
+> Vishal Gupta, Manoj Chinnakotla, and Manish Shrivastava. "Retrieve and re-rank: A simple and effective IR approach to simple question answering over knowledge graphs." EMNLP-FEVER 2018.
 
 - [PDF](https://www.aclweb.org/anthology/W18-5504.pdf)
 - CODE
@@ -75,7 +91,7 @@
 
 ### Petrochuk et al. (2018), Simplequestions nearly solved: A new upperbound and baseline approach
 
-> Petrochuk, Michael, and Luke Zettlemoyer. "Simplequestions nearly solved: A new upperbound and baseline approach." EMNLP 2018.
+> Michael Petrochuk, and Luke Zettlemoyer. "Simplequestions nearly solved: A new upperbound and baseline approach." EMNLP 2018.
 
 - [PDF](https://arxiv.org/pdf/1804.08798)
 - CODE
@@ -87,4 +103,28 @@
 
 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3289600.3290956?casa_token=_jdAPjXRy5MAAAAA:zjFI6xu8CC6rpBIRREu3aQCfpIxE4fmWVQ1Ru0mwzcuav2tjiRJyLLn91p0zjZ_THpXQB7sxMW8A)
 - CODE
+- Abstract
+
+### Zhao et al. (2019), Simple question answering with subgraph ranking and joint-scoring
+
+> Wenbo Zhao, Tagyoung Chung, Anuj Goyal,andAngeliki Metallinou. "Simple question answering with subgraph ranking and joint-scoring." arXiv preprint arXiv:1904.04049 (2019).
+
+- [PDF](https://arxiv.org/pdf/1904.04049)
+- CODE
+- Abstract
+
+### Lukovnikov et al. (2019), Pretrained transformers for simple question answering over knowledge graphs
+
+> Denis Lukovnikov, Asja Fischer, and Jens Lehmann. "Pretrained transformers for simple question answering over knowledge graphs." ISWC 2019.
+
+- [PDF](https://arxiv.org/pdf/2001.11985)
+- [CODE](https://github.com/SmartDataAnalytics/semparse-sq)
+- Abstract
+
+### Sharath et al. (2020), Question answering over knowledge base using language model embeddings
+
+> Japa Sai Sharath, and Rekabdar Banafsheh. "Question answering over knowledge base using language model embeddings." IJCNN 2020.
+
+- [PDF](https://arxiv.org/pdf/2010.08883)
+- [CODE](https://github.com/SmartDataAnalytics/semparse-sq)
 - Abstract
