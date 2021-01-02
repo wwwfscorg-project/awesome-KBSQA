@@ -1,4 +1,4 @@
-# awesome-simple-QA
+# awesome-KBSQA
 
 In general, this repository focuses on IR-based knowledge base simple question answering (KBSQA) techniques.
 
