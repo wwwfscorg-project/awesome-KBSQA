@@ -59,10 +59,10 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 
 - [PDF](https://arxiv.org/pdf/1506.02075)
-- CODE
+- [CODE for MemNN](https://github.com/facebook/MemNN)
 - METHODOLOGY: `It studies the simple question answering in a large-scale KG setting. First, it finds candidate facts by matching $n$-grams of words of questions to aliases of freebase entities and keeping all facts having one of the matching entities. Second, the scoring is performed using embedding model learned from memory networks that stores historical facts for supervision.`
 
-### Golub and He (2016), CQAA
+### Golub and He (2016), CQAA (Character-level question answering with attention)
 
 
 > David Golub, and Xiaodong He. "Character-level question answering with attention." EMNLP 2016.
@@ -72,7 +72,7 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 - [CODE](https://github.com/davidgolub/SimpleQA)
 - METHODOLOGY: `Questions are embedded as one-hot encodings of characters in the question based on LSTM encoder. each KG entity/predicate is embedded as a single embedding based on a character-level CNN-based enconder. An LSTM-based decoder with attention is integrated with a relevant function to find 1) head entity and 2) predicate to find candidate facts in KG. The probabilities of candidates are calculated based on cosine similarity between question and candidates. Candidate entities and predicates are selected as similar to Bordes et al. (2015), i.e., by substring matching.`
 
-### Dai et al. (2016), CFO
+### Dai et al. (2016), CFO (Conditional focused)
 
 > Zihang Dai, Lei Li, and Wei Xu. "CFO: Conditional focused neural question answering with large-scale knowledge bases." ACL 2016.
 
@@ -87,15 +87,15 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 - [PDF](https://arxiv.org/pdf/1606.03391)
 - [CODE1](https://github.com/yinwenpeng/KBQA_IBM)
 - [CODE2](https://github.com/yinwenpeng/KBQA_IBM_New)
-- Abstract
+- METHODOLOGY
 
 ### Lukovnikov et al. (2017), Neural network-based question answering over knowledge graphs on word and character level
 
 > Denis Lukovnikov, Asja Fischer, and Jens Lehmann. "Neural network-based question answering over knowledge graphs on word and character level." WWW 2017.
 
 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3038912.3052675?casa_token=iLERoPpVmdgAAAAA:X0Wha2ssSGvCh2zWbm1glDTeBtzA9GlZXB7BcKsG7ZZEPj0Fvm18_zYyLoI1v5GGGSNU6uBN8SNg)
-- CODE
-- Abstract
+- [CODE](https://github.com/WDAqua/teafacto)
+- METHODOLOGY
 
 ### Mohammed et al. (2018), Strong baselines for simple question answering over knowledge graphs with and without neural networks
 
@@ -122,23 +122,26 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 - [PDF](https://www.aclweb.org/anthology/W18-5504.pdf)
 - CODE
-- Abstract
+- METHODOLOGY
 
 ### Petrochuk et al. (2018), Simplequestions nearly solved: A new upperbound and baseline approach
 
 > Michael Petrochuk, and Luke Zettlemoyer. "Simplequestions nearly solved: A new upperbound and baseline approach." EMNLP 2018.
 
 - [PDF](https://arxiv.org/pdf/1804.08798)
-- CODE
-- Abstract
+- [CODE](https://github.com/PetrochukM/Simple-QA-EMNLP-2018)
+- METHODOLOGY: `The top-$k$ head entity recognition is performed first such that distribution of head entities over questions are modeled by a biLSTM and a linear-chain CRF. Then, the relation classfication is conducted over the given question and the candidate head entity by a bi-LSTM.`
+- REMARKS:
+  - For entity candidate selection, all hyperparameters are hand tuned and then alimited set are further tuned with grid search to increase validation accuracy. GLoVe embeddings and Adam were used for bi-LSTM model, and CRF is used to decode the K candidates with viterbi algorithm.
+  - For relation classification, all hyperparameters of LSTM are hand tuned and then alimited set are further tuned with Hyperban.
 
 ### Huang et al. (2019), Knowledge graph embedding based question answering
 
 > Xiao Huang, Jingyuan Zhang, Dingcheng Li, and Ping Li. "Knowledge graph embedding based question answering." WSDM 2019.
 
 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3289600.3290956?casa_token=_jdAPjXRy5MAAAAA:zjFI6xu8CC6rpBIRREu3aQCfpIxE4fmWVQ1Ru0mwzcuav2tjiRJyLLn91p0zjZ_THpXQB7sxMW8A)
-- CODE
-- Abstract
+- [CODE](https://github.com/xhuang31/KEQA_WSDM19)
+- `All KG entities and predicates are embeddings with TransE or TransR. Next, bi-LSTM with attention is applied to generate the corresponding KG embeddings of mentioned entity and predicate. Also, position of head entity mention is identified by a bi-LSTM and used to find candidates based on fuzzy matching. A joint similarity function is designed to integrate the similaries between entity/predicate embeddings and matched texts.`
 
 ### Zhao et al. (2019), Simple question answering with subgraph ranking and joint-scoring
 
