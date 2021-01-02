@@ -72,6 +72,13 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 - [CODE](https://github.com/davidgolub/SimpleQA)
 - METHODOLOGY: `Questions are embedded as one-hot encodings of characters in the question based on LSTM encoder. each KG entity/predicate is embedded as a single embedding based on a character-level CNN-based enconder. An LSTM-based decoder with attention is integrated with a relevant function to find 1) head entity and 2) predicate to find candidate facts in KG. The probabilities of candidates are calculated based on cosine similarity between question and candidates. Candidate entities and predicates are selected as similar to Bordes et al. (2015), i.e., by substring matching.`
 
+### Dai et al. (2016), CFO
+
+> Zihang Dai, Lei Li, and Wei Xu. "CFO: Conditional focused neural question answering with large-scale knowledge bases." ACL 2016.
+
+- [PDF](https://arxiv.org/pdf/1606.01994)
+- [CODE](https://github.com/zihangdai/cfo)
+- METHODOLOGY: `.`
 
 ### Yin et al. (2016), Simple question answering by attentive convolutional neural network
 
@@ -80,14 +87,6 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 - [PDF](https://arxiv.org/pdf/1606.03391)
 - [CODE1](https://github.com/yinwenpeng/KBQA_IBM)
 - [CODE2](https://github.com/yinwenpeng/KBQA_IBM_New)
-- Abstract
-
-### Dai et al. (2016), CFO
-
-> Zihang Dai, Lei Li, and Wei Xu. "CFO: Conditional focused neural question answering with large-scale knowledge bases." ACL 2016.
-
-- [PDF](https://arxiv.org/pdf/1606.01994)
-- [CODE](https://github.com/zihangdai/cfo)
 - Abstract
 
 ### Lukovnikov et al. (2017), Neural network-based question answering over knowledge graphs on word and character level
@@ -102,9 +101,12 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 > Salman Mohammed, Peng Shi, and Jimmy Lin. "Strong baselines for simple question answering over knowledge graphs with and without neural networks." NAACL 2018.
 
-- [PDF](https://dl.acm.org/doi/pdf/10.1145/3038912.3052675?casa_token=iLERoPpVmdgAAAAA:X0Wha2ssSGvCh2zWbm1glDTeBtzA9GlZXB7BcKsG7ZZEPj0Fvm18_zYyLoI1v5GGGSNU6uBN8SNg)
-- CODE
-- Abstract
+- [PDF](https://arxiv.org/pdf/1712.01969)
+- [CODE](https://github.com/castorini/BuboQA)
+- METHODOLOGY: `It consists of entity detection, entity linking, relation prediction, and evidence combination. In particular, the entity detection is first performed to identify the entity being queried through bi-LSTM. Subsequently, identified entity name is linking to KG entities by $n$-gram fuzzy matching. Then, relation is found through bi-GRU as a classification task over all possible relations. At last, all possible entity-relation pairs are evaluated based on the product of their component scores.`
+- REMARKS:
+  - several different baselines are proposed, and BiLSTM-BiGRU achieves the best results over simpleQuestions dataset.
+  - it can actually be regarded as a non-embedding based method, however, it handles the simple QA problem in an information retrieval paradigm, as others.
 
 ### Hao et al. (2018), Pattern-revising enhanced simple question answering over knowledge bases
 
@@ -112,7 +114,7 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 - [PDF](https://www.aclweb.org/anthology/C18-1277.pdf)
 - CODE
-- Abstract
+- METHODOLOGY: `It conducts pattern extraction and entity linking first to extract possible entity metion and question pattern, so as to reduce the candidates resulted from an $n$-gram matching. Then, pattern-revising over all candidate patterns are performed to correct the wrong pattern and get the right head entity mention. Then, a join fact search is performed that integrates the consine similaries between the LSTM encodings of entity and question as well as those of entity+relation and question. The LSTM encodings are generated in both character and word levels.`
 
 ### Gupta et al. (2018), Retrieve and re-rank: A simple and effective IR approach to simple question answering over knowledge graphs
 
@@ -170,3 +172,4 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 - https://github.com/PetrochukM/Simple-QA-EMNLP-2018/
 - https://github.com/simba0626/Question-Answering
+- https://github.com/BshoterJ/awesome-kgqa
