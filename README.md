@@ -1,5 +1,7 @@
 # awesome-simple-QA
 
+In general, this repository focuses on IR-based knowledge base simple question answering (KBSQA) techniques.
+
 ## datasets
 
 ### WebQuestions
@@ -157,7 +159,7 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 - [PDF](https://arxiv.org/pdf/2001.11985)
 - CODE
-- METHODOLOGY
+- METHODOLOGY: `It consists of 1) entity span detection, 2) relation classification, and 3) heuristic-based post-processing for final facts. In steps 1) and 2), BERT was used to predict the entity mention and relation in an integrated way. Top entities are found through fuzzy string matching and the relation with highest probability is combined with its entity to form a candidate fact. For each candidate fact, only one relation is considered.`
 
 ### Sharath et al. (2020), Question answering over knowledge base using language model embeddings
 
@@ -171,9 +173,19 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 ### Relevant Papers
 
+#### Survey Papers
+
+- [Core Techniques of Question Answering Systems over Knowledge Bases: a Survey](https://hal.archives-ouvertes.fr/hal-01637143/document)
+- [Introduction to Neural Network based Approaches for Question Answering over Knowledge Graphs](https://arxiv.org/pdf/1907.09361.pdf)
+- A Survey of Question Answering over Knowledge Base
+- Deep Learning in Question Answering
+
+#### NLP Techniques
+
+- [Comparative Study of CNN and RNN for Natural Language Processing](https://arxiv.org/abs/1702.01923)
+
 ### GitHub Repository
 
 - https://github.com/PetrochukM/Simple-QA-EMNLP-2018/
-- https://github.com/simba0626/Question-Answering
-- https://github.com/BshoterJ/awesome-kgqa
-- https://github.com/simba0626/Question-Answering
+- https://github.com/simba0626/Question-Answering, some tutorials and slides about KBQA.
+- https://github.com/BshoterJ/awesome-kgqa, some papers, projects, and resources of KBQA.
