@@ -156,7 +156,7 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 > Denis Lukovnikov, Asja Fischer, and Jens Lehmann. "Pretrained transformers for simple question answering over knowledge graphs." ISWC 2019.
 
 - [PDF](https://arxiv.org/pdf/2001.11985)
-- [CODE](https://github.com/SmartDataAnalytics/semparse-sq)
+- CODE
 - METHODOLOGY
 
 ### Sharath et al. (2020), Question answering over knowledge base using language model embeddings
@@ -164,7 +164,7 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 > Japa Sai Sharath, and Rekabdar Banafsheh. "Question answering over knowledge base using language model embeddings." IJCNN 2020.
 
 - [PDF](https://arxiv.org/pdf/2010.08883)
-- [CODE](https://github.com/SmartDataAnalytics/semparse-sq)
+- CODE
 - METHODOLOGY
 
 ## Other Resources
@@ -176,3 +176,4 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 - https://github.com/PetrochukM/Simple-QA-EMNLP-2018/
 - https://github.com/simba0626/Question-Answering
 - https://github.com/BshoterJ/awesome-kgqa
+- https://github.com/simba0626/Question-Answering
