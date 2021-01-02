@@ -141,15 +141,15 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 - [PDF](https://dl.acm.org/doi/pdf/10.1145/3289600.3290956?casa_token=_jdAPjXRy5MAAAAA:zjFI6xu8CC6rpBIRREu3aQCfpIxE4fmWVQ1Ru0mwzcuav2tjiRJyLLn91p0zjZ_THpXQB7sxMW8A)
 - [CODE](https://github.com/xhuang31/KEQA_WSDM19)
-- `All KG entities and predicates are embeddings with TransE or TransR. Next, bi-LSTM with attention is applied to generate the corresponding KG embeddings of mentioned entity and predicate. Also, position of head entity mention is identified by a bi-LSTM and used to find candidates based on fuzzy matching. A joint similarity function is designed to integrate the similaries between entity/predicate embeddings and matched texts.`
+- METHODOLOGY: `All KG entities and predicates are embeddings with TransE or TransR. Next, bi-LSTM with attention is applied to generate the corresponding KG embeddings of mentioned entity and predicate. Also, position of head entity mention is identified by a bi-LSTM and used to find candidates based on fuzzy matching. A joint similarity function is designed to integrate the similaries between entity/predicate embeddings and matched texts.`
 
 ### Zhao et al. (2019), Simple question answering with subgraph ranking and joint-scoring
 
-> Wenbo Zhao, Tagyoung Chung, Anuj Goyal,andAngeliki Metallinou. "Simple question answering with subgraph ranking and joint-scoring." arXiv preprint arXiv:1904.04049 (2019).
+> Wenbo Zhao, Tagyoung Chung, Anuj Goyal,andAngeliki Metallinou. "Simple question answering with subgraph ranking and joint-scoring." NAACL 2019.
 
 - [PDF](https://arxiv.org/pdf/1904.04049)
 - CODE
-- Abstract
+- METHODOLOGY
 
 ### Lukovnikov et al. (2019), Pretrained transformers for simple question answering over knowledge graphs
 
@@ -157,7 +157,7 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 - [PDF](https://arxiv.org/pdf/2001.11985)
 - [CODE](https://github.com/SmartDataAnalytics/semparse-sq)
-- Abstract
+- METHODOLOGY
 
 ### Sharath et al. (2020), Question answering over knowledge base using language model embeddings
 
@@ -165,7 +165,7 @@ https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
 - [PDF](https://arxiv.org/pdf/2010.08883)
 - [CODE](https://github.com/SmartDataAnalytics/semparse-sq)
-- Abstract
+- METHODOLOGY
 
 ## Other Resources
 
