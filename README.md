@@ -26,7 +26,7 @@ The annotators were explicitly instructed to phrase the question differently as 
 
 FB2M contains about 2M entities and 5k relationships. FB5M, is much larger with about 5M entities and more than 7.5k relationships. They were first used by Bordes et al. (2014a).
 
-### 30M-Factoid
+### 30MQA Corpus (30M Factoid Question-Answer Corpus)
 
 https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
