@@ -164,7 +164,7 @@ A question dataset containing 4,390,597 questions and corresponding answer entit
 > Denis Lukovnikov, Asja Fischer, and Jens Lehmann. "Pretrained transformers for simple question answering over knowledge graphs." ISWC 2019.
 
 - [PDF](https://arxiv.org/pdf/2001.11985)
-- CODE
+- [CODE](https://github.com/lukovnikov/semparse/tree/master/semparse/simplequestions)
 - METHODOLOGY: `It consists of 1) entity span detection, 2) relation classification, and 3) heuristic-based post-processing for final facts. In steps 1) and 2), BERT was used to predict the entity mention and relation in an integrated way. Top entities are found through fuzzy string matching and the relation with highest probability is combined with its entity to form a candidate fact. For each candidate fact, only one relation is considered.`
 
 ### Sharath et al. (2020), LMEQA (Language Model Embedding based Question Answering)
