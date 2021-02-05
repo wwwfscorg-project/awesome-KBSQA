@@ -30,6 +30,8 @@ FB2M contains about 2M entities and 5k relationships. FB5M, is much larger with 
 
 https://academictorrents.com/details/973fb709bdb9db6066213bbc5529482a190098ce
 
+Generating Factoid Questions With Recurrent Neural Networks: The 30M Factoid Question-Answer Corpus http://arxiv.org/abs/1603.06807.
+
 ### WikiQuestions
 
 https://ad-publications.cs.uni-freiburg.de/student-projects/qa-completion/
